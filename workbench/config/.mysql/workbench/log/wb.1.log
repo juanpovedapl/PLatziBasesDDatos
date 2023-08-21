@@ -1,0 +1,40 @@
+22:47:59 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: /usr/share/mysql-workbench
+	plugin path: /usr/lib/mysql-workbench/plugins
+	struct path: /usr/share/mysql-workbench/grt
+	module path: /usr/lib/mysql-workbench/modules
+	library path: /usr/share/mysql-workbench/libraries
+	user data dir: /config/.mysql/workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+22:47:59 [INF][      WBContext]: WbContext::init
+22:48:00 [INF][            WBA]: Looking for extension modules for WBA...
+22:48:00 [INF][            WBA]: 0 extension modules found
+22:48:01 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:48:01 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+22:48:01 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Linux/Unix version 8.0.34 CE build 3263449 (64 bit)
+	Configuration Directory: /config/.mysql/workbench
+	Data Directory: /usr/share/mysql-workbench
+	Cairo Version: 1.16.0
+	OS:  x86_64
+	CPU: 8x 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz (3100.000MHz) - 15.33GiB RAM
+No video adapter info available
+	Distribution: Ubuntu 22.04.2 LTS
+
+	Fips mode enabled: no
+
+22:48:01 [WRN][       WBModule]: OS not found on supported OS list. OS string: ' x86_64'
+22:50:18 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+22:50:18 [WRN][SQL Editor Form]: Unable to connect to localhost
+22:50:18 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+22:50:18 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+22:50:18 [INF][  column_widths]: Initializing column width cache for Mysql@127.0.0.1_3306
+22:50:18 [INF][          Admin]: Auto-created instance profile for connection 
+22:50:18 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+22:50:18 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
